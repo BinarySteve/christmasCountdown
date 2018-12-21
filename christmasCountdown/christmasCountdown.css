@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0A7533;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h1 {
+	font-family:"Great Vibes";
+  font-size: 80px;
+  color: #8b0000;
+  padding: 5% 0;
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #940e22,
+      0 0 40px #940e22, 0 0 50px #940e22, 0 0 60px #940e22, 0 0 70px #940e22;
+  }
+  to {
+    text-shadow: 0 0 15px #fff, 0 0 30px #c11336, 0 0 40px #c11336,
+      0 0 50px #c11336, 0 0 60px #c11336, 0 0 70px #c11336, 0 0 80px #c11336;
+  }
+}
+
+#countdown {
+  margin: 0;
+  color: #000;
+  font-family: "Cinzel";
+  font-size: 40px;
+  text-decoration: bold;
+  left: 20px;
+  
+ 
+}
+#canvas {
+ display: block;
+}
+
