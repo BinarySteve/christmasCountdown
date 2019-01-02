@@ -7,7 +7,7 @@ window.onload = () => {
   canvas.width = w;
   canvas.height = h;
 
-  //snow letiables
+  //snow variables
   let maxSnow = 150; //max snow
   let snow = [];
   for (let i = 0; i < maxSnow; i++) {
